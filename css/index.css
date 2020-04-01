@@ -79,6 +79,10 @@ input{
     margin-left: 10vw;
     margin-top: 1rem;
 }
+#people p{
+    color:hsl(0, 17%, 95%);
+    font-size: 2.5rem;
+}
 #people div p{
     color: hsl(0, 17%, 95%);
     font-size: 1.5rem;
@@ -137,6 +141,10 @@ img{
     margin-top: 0.5rem;
     /* margin-bottom: 1rem; */
     /* grid-row-gap: 0; */
+}
+#gifts p{
+    color: hsl(257, 51%, 12%);
+    font-size:2rem;
 }
 #gift btn{
     height:10px;
