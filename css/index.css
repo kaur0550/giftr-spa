@@ -10,6 +10,8 @@ body{
 .header button{
     color:hsl(0, 3%, 93%);
     font-size: 2rem;
+    background-color: hsl(257, 51%, 12%);
+    border: none;
 }
 .title{
     background-color: hsl(0, 17%, 95%);
@@ -64,6 +66,8 @@ input{
 }
 #cancelP, #cancelG{
     color:hsl(0, 17%, 95%);
+    background-color: hsl(257, 51%, 12%);
+    border: none;
 }
 #saveP, #saveG{
     background-color: hsl(0, 17%, 95%);
@@ -100,7 +104,7 @@ img{
 }
 .onePerson{
     background-color: hsl(0, 3%, 93%);
-    width:80vw;
+    width:80%;
     margin-left: 10vw;
     display: flex;
     flex-direction: row;
@@ -122,8 +126,6 @@ img{
 }
 #gifts div{
     display: grid;
-    /* grid-row-gap: 0.5rem; */
-    /* flex-direction: column; */
 }
 #gifts div div{
     display: grid;
@@ -150,3 +152,37 @@ img{
 #gifts div div img{
     margin-top: 0.5rem;
 }
+
+@media (min-width: 800px) {
+    
+    #everything{
+        display: grid;
+        grid-template-columns: 40% auto;
+    }
+
+    #people{
+        width: 90%;
+    }
+    #editPerson form #form{
+        width:50%;
+    }
+    input{
+        width:70%;
+    }
+    #btnSC{
+        width:60%;
+    }
+    #gifts{
+        width:50%;
+    }
+    /* #gifts div{
+        width:0%;
+    } */
+    #gifts div div{
+        width:90%;
+        margin-left:5%;
+    }
+    #editGifts form #form{
+        width:50%;
+    }
+  }
